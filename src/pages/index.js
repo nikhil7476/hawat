@@ -159,7 +159,7 @@ function Home() {
                 <div className="d-flex gap-3">
                   <div>
                     <Image
-                      src="/Software.svg"
+                      src="/software.svg"
                       alt="Software"
                       title="Software"
                       width={50}
