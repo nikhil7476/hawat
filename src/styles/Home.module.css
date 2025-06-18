@@ -1,7 +1,7 @@
 .heroSection {
   position: relative;
   overflow: hidden;
-  height: 100vh;
+  height: 650px;
   align-content: flex-end;
   margin-top: -10%;
 }
