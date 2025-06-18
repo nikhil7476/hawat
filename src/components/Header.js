@@ -27,22 +27,34 @@ const Header = () => {
           id="basic-navbar-nav"
         >
           <Nav className="gap-5">
-            <Nav.Link href="/" className={styles.link}>
+            <Nav.Link href="/" className={styles.link} title="Home">
               Home
             </Nav.Link>
-            <Nav.Link href="/about-us" className={styles.link}>
+            <Nav.Link href="/about-us" className={styles.link} title="About Us">
               About Us
             </Nav.Link>
-            <Nav.Link href="/our-services" className={styles.link}>
+            <Nav.Link
+              href="/our-services"
+              className={styles.link}
+              title="Our Services"
+            >
               Our Services
             </Nav.Link>
-            <Nav.Link href="/portfolio" className={styles.link}>
+            <Nav.Link
+              href="/portfolio"
+              className={styles.link}
+              title="Portfolio"
+            >
               Portfolio
             </Nav.Link>
-            <Nav.Link href="/blog" className={styles.link}>
+            <Nav.Link href="/blog" className={styles.link} title="Blog">
               Blog
             </Nav.Link>
-            <Nav.Link href="/contact-us" className={styles.link}>
+            <Nav.Link
+              href="/contact-us"
+              className={styles.link}
+              title="Contact Us"
+            >
               Contact Us
             </Nav.Link>
           </Nav>
