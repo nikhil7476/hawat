@@ -20,6 +20,15 @@ function Home() {
           content="Hawat, digital agency, technology solutions, creators, digital engineering, creative technologies, commercial packaging"
         />
         <link rel="canonical" href="/" />
+        <meta
+          property="og:title"
+          content="Hawat - Digital Agency for Creators"
+        />
+        <meta
+          property="og:description"
+          content="Hawat is a digital agency that provides cutting-edge technology solutions for creators. We specialize in digital engineering projects, creative technologies, and commercial packaging."
+        />
+        <meta property="og:image" content="/hawat.png" />
       </Head>
       <div className={styles.Home}>
         <section className={styles.heroSection}>
