@@ -5,6 +5,7 @@ import Link from "next/link";
 import { FaPlus } from "react-icons/fa6";
 import MarqueeSection from "@/components/MarqueeSection";
 import Head from "next/head";
+import Image from "next/image";
 
 function Home() {
   return (
@@ -61,6 +62,150 @@ function Home() {
                 text={["We Choose Only The BeThe Best Technology*", " ", "//"]}
                 repeat={6}
               />
+            </Row>
+          </Container>
+        </section>
+        <section className={styles.servicesSection}>
+          <Container>
+            <Row className="my-4 py-4">
+              <Col xl={3} lg={3} md={6} sm={12} xs={12}>
+                <div className="d-flex gap-3">
+                  <div>
+                    <Image
+                      src="/connect.svg"
+                      alt="Connect"
+                      title="Connect"
+                      width={50}
+                      height={50}
+                    />
+                  </div>
+                  <div>
+                    <h2>Connect</h2>
+                    <p>Lorem ipsum dolor consecetur ameet ad.</p>
+                  </div>
+                </div>
+              </Col>
+              <Col xl={3} lg={3} md={6} sm={12} xs={12}>
+                <div className="d-flex gap-3">
+                  <div>
+                    <Image
+                      src="/data.svg"
+                      alt="Data"
+                      title="Data"
+                      width={50}
+                      height={50}
+                    />
+                  </div>
+                  <div>
+                    <h2>Data</h2>
+                    <p>Lorem ipsum dolor consecetur ameet ad.</p>
+                  </div>
+                </div>
+              </Col>
+              <Col xl={3} lg={3} md={6} sm={12} xs={12}>
+                <div className="d-flex gap-3">
+                  <div>
+                    <Image
+                      src="/solution.svg"
+                      alt="Solution"
+                      title="Solution"
+                      width={50}
+                      height={50}
+                    />
+                  </div>
+                  <div>
+                    <h2>IT Solution</h2>
+                    <p>Lorem ipsum dolor consecetur ameet ad.</p>
+                  </div>
+                </div>
+              </Col>
+              <Col xl={3} lg={3} md={6} sm={12} xs={12}>
+                <div className="d-flex gap-3">
+                  <div>
+                    <Image
+                      src="/register.svg"
+                      alt="Register"
+                      title="Register"
+                      width={50}
+                      height={50}
+                    />
+                  </div>
+                  <div>
+                    <h2>Register</h2>
+                    <p>Lorem ipsum dolor consecetur ameet ad.</p>
+                  </div>
+                </div>
+              </Col>
+            </Row>
+            <Row className="my-4 py-4">
+              <Col xl={3} lg={3} md={6} sm={12} xs={12}>
+                <div className="d-flex gap-3">
+                  <div>
+                    <Image
+                      src="/servers.svg"
+                      alt="Servers"
+                      title="Servers"
+                      width={50}
+                      height={50}
+                    />
+                  </div>
+                  <div>
+                    <h2>Servers</h2>
+                    <p>Lorem ipsum dolor consecetur ameet ad.</p>
+                  </div>
+                </div>
+              </Col>
+              <Col xl={3} lg={3} md={6} sm={12} xs={12}>
+                <div className="d-flex gap-3">
+                  <div>
+                    <Image
+                      src="/Software.svg"
+                      alt="Software"
+                      title="Software"
+                      width={50}
+                      height={50}
+                    />
+                  </div>
+                  <div>
+                    <h2>Software</h2>
+                    <p>Lorem ipsum dolor consecetur ameet ad.</p>
+                  </div>
+                </div>
+              </Col>
+              <Col xl={3} lg={3} md={6} sm={12} xs={12}>
+                <div className="d-flex gap-3">
+                  <div>
+                    <Image
+                      src="/statstics.svg"
+                      alt="Statistics"
+                      title="Statistics"
+                      width={50}
+                      height={50}
+                    />
+                  </div>
+                  <div>
+                    <h2>Statistics</h2>
+                    <p>Lorem ipsum dolor consecetur ameet ad.</p>
+                  </div>
+                </div>
+              </Col>
+              <Col xl={3} lg={3} md={6} sm={12} xs={12}>
+                <div className="d-flex gap-3">
+                  <div>
+                    <Image
+                      src="/storage.svg"
+                      alt="Storage"
+                      title="Storage"
+                      width={50}
+                      height={50}
+                    />
+                  </div>
+                  <div>
+                    <h2>Storage</h2>
+                    <p>Lorem ipsum dolor consecetur ameet ad.</p>
+                  </div>
+                </div>
+              </Col>
             </Row>
           </Container>
         </section>
