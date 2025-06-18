@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Button, Offcanvas } from "react-bootstrap";
-import { TiThMenu } from "react-icons/ti";
+import { TfiLayoutGrid3Alt } from "react-icons/tfi";
 
 function OffHeader() {
   const [show, setShow] = useState(false);
@@ -10,8 +10,8 @@ function OffHeader() {
 
   return (
     <>
-      <Button variant="success" onClick={handleShow}>
-        <TiThMenu onClick={handleShow} />
+      <Button className="btn btn-link" onClick={handleShow}>
+        <TfiLayoutGrid3Alt onClick={handleShow} />
       </Button>
 
       <Offcanvas show={show} onHide={handleClose}>
