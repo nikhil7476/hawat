@@ -1,0 +1,20 @@
+.navbar {
+  padding: 15px 0;
+}
+
+.link {
+  color: #ffffff !important;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: Orbitron, sans-serif;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: var(--highlight) !important;
+}
+
+.toggleBtn {
+  background-color: var(--highlight);
+}
