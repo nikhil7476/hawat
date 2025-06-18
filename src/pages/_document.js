@@ -4,6 +4,11 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="Nikhil Mishra" />
+        <meta name="publisher" content="Hawat Digital Agency" />
+        <link rel="icon" href="/favicon.svg" />
         <link
           href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap"
           rel="stylesheet"

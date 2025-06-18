@@ -4,10 +4,23 @@ import { Col, Container, Row } from "react-bootstrap";
 import Link from "next/link";
 import { FaPlus } from "react-icons/fa6";
 import MarqueeSection from "@/components/MarqueeSection";
+import Head from "next/head";
 
 function Home() {
   return (
     <>
+      <Head>
+        <title>Hawat - Digital Agency for Creators</title>
+        <meta
+          name="description"
+          content="Hawat is a digital agency that provides cutting-edge technology solutions for creators. We specialize in digital engineering projects, creative technologies, and commercial packaging."
+        />
+        <meta
+          name="keywords"
+          content="Hawat, digital agency, technology solutions, creators, digital engineering, creative technologies, commercial packaging"
+        />
+        <link rel="canonical" href="/" />
+      </Head>
       <div className={styles.Home}>
         <section className={styles.heroSection}>
           <Container>
